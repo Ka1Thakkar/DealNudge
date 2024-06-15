@@ -14,6 +14,7 @@ import USPs from "./_components/USPs";
 import FAQs from "./_components/FAQs";
 import Insights from "./_components/Insights";
 import Demo from "./_components/Demo";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -33,6 +34,7 @@ export default function Home() {
       <FAQs />
       <Insights />
       <Demo />
+      <Footer />
     </main>
   );
 }

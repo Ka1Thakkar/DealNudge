@@ -22,6 +22,7 @@ const config = {
         brandGray : "#0E0E0E",
         brandBlue : "#0275FF",
         brandBGBlue : "#F5F9FF",
+        brandFooterBlue : "#000E1E"
       },
       keyframes: {
         "accordion-down": {
