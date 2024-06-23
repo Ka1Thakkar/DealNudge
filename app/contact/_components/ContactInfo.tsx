@@ -9,13 +9,15 @@ const ContactInfo = () => {
             <div className={boxClassNames}>
                 <FaEnvelope size={48} className="text-black dark:text-white mb-4" />
                 <p className="text-xl font-bold text-black dark:text-white">Email</p>
-                <a href="mailto:divyansh@dealnudge.com" className="text-black dark:text-white mt-2 text-base">divyansh@dealnudge.com</a>
+                <a href="mailto:divyansh@dealnudge.com" className="text-black dark:text-white mt-2 text-base underline underline-offset-4">divyansh@dealnudge.com</a>
                 <button className="mt-6 bg-brandBlue text-white py-2 px-4 rounded-full font-semibold">Contact</button>
             </div>
             <div className={boxClassNames}>
                 <FaPhone size={48} className="text-black dark:text-white mb-4" style={{ transform: 'scaleX(-1)' }} />
                 <p className="text-xl font-bold text-black dark:text-white">Phone</p>
-                <a href="tel:+917078123790" className="text-black dark:text-white mt-2 text-base">Office. +91 7078123790</a>
+                <a href="tel:+917078123790" className="text-black dark:text-white mt-2 text-base">
+                Office. <span className="underline underline-offset-4">+91 7078123790</span>
+                </a>
                 <button className="mt-6 bg-brandBlue text-white py-2 px-4 rounded-full font-semibold">Call</button>
             </div>
             <div className={boxClassNames}>
