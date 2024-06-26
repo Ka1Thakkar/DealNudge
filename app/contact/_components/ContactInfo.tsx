@@ -5,7 +5,7 @@ const boxClassNames = "bg-white dark:bg-[#1E1E1E] hover:bg-[#E1E6F8] dark:hover:
 
 const ContactInfo = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-center gap-10 mt-20 mb-20">
+        <div className=" flex flex-wrap justify-center gap-10 mt-20 w-full">
             <div className={boxClassNames}>
                 <FaEnvelope size={48} className="text-black dark:text-white mb-4" />
                 <p className="text-xl font-bold text-black dark:text-white">Email</p>

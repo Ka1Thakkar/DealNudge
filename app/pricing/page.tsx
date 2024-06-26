@@ -41,7 +41,7 @@ const Main = () => {
                     </div>
                 }
                 {!monthly &&
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 w-full px-32 mt-20">
+                    <div className="grid  lg:grid-cols-3 grid-cols-1 gap-5 xl:gap-10 w-full px-10 xl:px-28 mt-20">
                         <PricingComponent features={basicFeatures} tier="Basic" price="0" />
                         <PricingComponent features={standardFeatures} tier="Standard" price="25" />
                         <PricingComponent features={professionalFeatures} tier="Professional" price="50" />

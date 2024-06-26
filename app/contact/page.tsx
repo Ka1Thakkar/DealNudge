@@ -11,11 +11,11 @@ const mainFont = localFont({ src: "../../public/Font/cabinet-grotesk/CabinetGrot
 const Main = () => {
     return (
         <main className={cn(mainFont.className)}>
-            <div className={cn("min-h-screen flex flex-col items-center pt-36 pb-20 bg-white dark:bg-brandGray px-4 md:px-20", mainFont.className)}>
+            <div className={cn("min-h-screen flex flex-col items-center justify-center py-32 lg:py-0 bg-white dark:bg-brandGray px-4 md:px-20", mainFont.className)}>
                 <h1 className="2xl:text-8xl text-6xl font-bold text-center">
                     Contact Us
                 </h1>
-                <p className="text-3xl text-[#6F6C90] text-center dark:text-white/50 mt-5 max-w-4xl mx-auto">
+                <p className="text-3xl text-[#6F6C90] text-center dark:text-white/50 mt-5 max-w-5xl mx-auto">
                     We’d love to hear from you! Whether you have questions about our features, pricing, or need support, our team is here to help.
                 </p>
                 <ContactInfo />
