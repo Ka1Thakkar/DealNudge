@@ -7,10 +7,10 @@ const MainText = () => {
     const { theme, setTheme } = useTheme();
     return (
         <div className="w-full h-fit justify-center items-center gap-12 flex flex-col bg-brandBGBlue dark:bg-black px-5 md:px-20 2xl:px-40 pt-44">
-            <h1 className="2xl:text-8xl text-6xl font-bold text-center">
+            <h1 className="lg:text-8xl text-4xl sm:text-6xl lg:max-w-4xl sm:max-w-4xl max-w-sm font-bold text-center">
                 Copilot-Assisted Deal Flow Management
             </h1>
-            <p className="dark:text-white/80 text-xl 2xl:text-[28px] w-[60vw] 2xl:w-[40vw] text-center">
+            <p className="dark:text-white/80 text-xl 2xl:text-[28px] w-[60vw] 2xl:max-w-xl text-center">
                 Make deal search and analysis easier than ever, and make the most of your deal flow pipeline.
             </p>
             <div className="bg-white py-2 px-3 rounded-full flex">

@@ -21,7 +21,7 @@ const Main = () => {
                 <p className="text-3xl text-[#6F6C90] text-center dark:text-white/50 mt-5">
                     Select a Plan that Fits Your Deal Management Goals
                 </p>
-                <div className="bg-brandBGBlue dark:bg-brandGray border border-brandBlue rounded-2xl flex mt-10 font-medium">
+                <div className="dark:bg-brandGray bg-[#E6F2FF] rounded-2xl flex mt-10 font-medium">
                     <button onClick={() => {
                         setMonthly(true)
                     }} className={cn("px-7 py-3 text-2xl transition-all ease-in-out", monthly && "bg-brandBlue text-white rounded-2xl")}>

@@ -19,11 +19,11 @@ const Stats = () => {
             {statistics.map((stat, index) => {
                 return (
                     <div key={index} className=" flex flex-col items-center justify-center">
-                        <div className="text-8xl font-bold">
+                        <div className="lg:text-8xl text-8xl sm:text-6xl font-bold">
                             {stat.value}
                             <span>+</span>
                         </div>
-                        <div className="text-2xl font-medium pt-5">
+                        <div className="lg:text-2xl sm:text-lg text-2xl text-center font-medium pt-5">
                             {stat.title}
                         </div>
                     </div>

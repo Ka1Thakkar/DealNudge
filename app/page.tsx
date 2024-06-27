@@ -25,7 +25,7 @@ export default function Home() {
         <Stats />
         <div className="w-[40vw] bg-gradient-to-r from-brandGray to-brandGray via-white h-[1px] rounded-full"></div>
         <VCs />
-        <p className="text-white text-lg font-medium text-center">
+        <p className="text-white sm:text-lg font-medium text-center max-w-sm">
           Simplifying Deal Flow for Top Investment Teams Worldwide
         </p>
       </div>

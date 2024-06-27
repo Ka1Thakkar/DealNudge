@@ -28,7 +28,7 @@ const USPs = () => {
                         <div className="flex flex-col gap-5">
                             <h3 className=" text-4xl md:text-6xl font-bold">{usp.title}</h3>
                             <p className="md:text-xl text-base dark:text-white/50 text-black/50 mb-5">{usp.description}</p>
-                            <button className="w-fit dark:bg-brandBlue py-2 px-5 rounded-xl bg-black text-white font-medium text-lg">
+                            <button className="w-fit dark:bg-brandBlue py-2 px-10 rounded-xl bg-black text-white font-medium text-lg">
                                 Try Now
                             </button>
                         </div>

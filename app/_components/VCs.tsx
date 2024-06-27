@@ -36,7 +36,7 @@ const VC = [
 
 const VCs = () => {
     return (
-        <Marquee className="w-full h-full" gradient gradientColor="#0E0E0E" gradientWidth={'25%'} pauseOnHover>
+        <Marquee className="w-full h-full my-10" gradient gradientColor="#0E0E0E" gradientWidth={'25%'} pauseOnHover>
             {VC.map((vc, index) => {
                 return (
                     <div key={index} className="h-[66px] mx-20">

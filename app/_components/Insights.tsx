@@ -19,6 +19,7 @@ const Insights = () => {
                 <InsightsComponent image={image} name="Kavan T." position="Venture Capital Associate" insights="Dealnudge has been a game changer for our team. We have been able to source deals faster and more efficiently than ever before." />
                 <InsightsComponent image={image} name="Kavan T." position="Venture Capital Associate" insights="Dealnudge has been a game changer for our team. We have been able to source deals faster and more efficiently than ever before." />
                 <InsightsComponent image={image} name="Kavan T." position="Venture Capital Associate" insights="Dealnudge has been a game changer for our team. We have been able to source deals faster and more efficiently than ever before." />
+                <InsightsComponent image={image} name="Kavan T." position="Venture Capital Associate" insights="Dealnudge has been a game changer for our team. We have been able to source deals faster and more efficiently than ever before." />
             </Marquee>
         </div>
     );

@@ -13,7 +13,7 @@ interface InsightsComponentProps {
 const InsightsComponent = ({image, name, position, insights} : InsightsComponentProps) => {
     const {theme, setTheme} = useTheme();
     return (
-        <div className="flex flex-col items-center justify-center p-10 md:p-16 gap-10 border rounded-xl dark:border-white mx-10 w-[90vw] md:w-[30vw] my-10 shadow-lg shadow-black/25 dark:shadow-white/50">
+        <div className="flex flex-col items-center justify-center p-10 md:p-16 gap-10 border rounded-xl dark:border-white mx-10 w-[75vw] lg:w-[45vw] 2xl:w-[25vw] xl:w-[35vw] sm:w-[60vw] my-10 shadow-lg shadow-black/25 dark:shadow-white/50">
             <div className="flex gap-10 w-full justify-start items-center">
                 <Image quality={100} src={image} alt="Investor" height={64} width={64} className="rounded-full" />
                 <div>

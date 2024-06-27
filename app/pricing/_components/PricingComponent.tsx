@@ -45,7 +45,7 @@ const PricingComponent = ({ features, tier, price }: PricingComponentProps) => {
                     </div>
                 </div>
             </div>
-            <div className="p-4 rounded-full bg-brandBlue text-center text-2xl font-bold">
+            <div className="p-4 rounded-full text-white bg-brandBlue text-center text-2xl font-bold">
                 Get Started
             </div>
         </div>
